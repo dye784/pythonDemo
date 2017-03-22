@@ -1,23 +1,23 @@
 # Learning Python
 
-####Printing in python
+###Printing in python
 ```py
 print 'Hello world'
 ```
 
-####Creating Variables
+###Creating Variables
 Python uses underscores instead of camel case for variables
 ```py
 my_variable = 10
 ```
 
-####Booleans
+###Booleans
 Booleans are capitalized
 ```py
 my_bool = True
 ```
 
-####Whitespace
+###Whitespace
 Whitespace is important in python to structure code. This is broken.
 ```py
 def spam():
@@ -36,13 +36,13 @@ def spam():
 print spam()
 ```
 
-####Comments
+###Comments
 To comment out a single line we use the `#` sign. To comment out multiple lines we use triple single/double quotes `"""` and end it without another `"""`
 ```py
 '''Some comment here'''
 ```
 
-####Math
+###Math
 The only new math operation we have is ** (exponentiation) compared to JavaScript.
 ```py
 eggs = 10 ** 2
