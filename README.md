@@ -12,7 +12,7 @@ my_variable = 10
 ```
 
 #### Booleans
-Booleans are capitalized
+Booleans are capitalized. Operators are `and` `or` and `not`
 ```py
 my_bool = True
 ```
@@ -47,3 +47,35 @@ The only new math operation we have is ** (exponentiation) compared to JavaScrip
 ```py
 eggs = 10 ** 2
 ```
+
+#### Strings
+Same as JS. `\` to escape. Concat is the same `+`.
+```py
+'There\'s a snake in my boot!'
+```
+Some string methods :
+`len()`
+```py
+parrot = 'Norwegian Blue'
+print len(parrot) #14 length of string
+```
+`String.lower()` and `String.upper()`
+```py
+parrot = 'Norwegian Blue'
+print parrot.lower() #'norwegian blue' lower case opposite for upper
+```
+`str()`
+```py
+pi = 3.14
+print st(pi) #'3.14' as a string
+```
+Note: Methods that dot are methods only available to a specific data type. Methods that you envelop in parens apply to more than one data type.
+
+Similar to template literals in JavaScript Python uses string formating with a %.
+```py
+string_1 = "Camelot"
+string_2 = "place"
+
+print "Let's not go to %s. 'Tis a silly %s." % (string_1, string_2) # Prints Let's not go to Camelot. 'Tis a silly place.
+```
+Note: you need the same number of `%s` as terms after the string aka after the `%` `(var1, var2, var3)`
