@@ -17,6 +17,13 @@ Booleans are capitalized. Operators are `and` `or` and `not`
 my_bool = True
 ```
 
+#### Functions
+Functions are defines using `def`
+```py
+def function_name():
+    print 'Hello'
+```
+
 #### Whitespace
 Whitespace is important in python to structure code. This is broken.
 ```py
@@ -79,3 +86,16 @@ string_2 = "place"
 print "Let's not go to %s. 'Tis a silly %s." % (string_1, string_2) # Prints Let's not go to Camelot. 'Tis a silly place.
 ```
 Note: you need the same number of `%s` as terms after the string aka after the `%` `(var1, var2, var3)`
+
+#### Conditionals & Control Flow
+```py
+answer = "Left"
+if answer == "Left": # Colon after conditional statement
+    print "This is the Verbal Abuse Room, you heap of parrot droppings!"
+elif answer == "Right":
+    print "Something else"
+else:
+    print "Parrots...why..."
+```
+Comparators : `==`, `!=`, `<`, `>`, `<=`, `>=`
+Boolean Operators : `and`, `or`, `not`
