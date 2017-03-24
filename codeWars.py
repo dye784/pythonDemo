@@ -19,7 +19,6 @@ def square_or_square_root(arr):
     return result
 
 # Basic math operations
-
 def basic_op(operator, value1, value2):
     if operator == '+':
         return value1 + value2
@@ -29,3 +28,10 @@ def basic_op(operator, value1, value2):
         return value1 * value2
     elif operator == '/':
         return value1 / value2
+
+# return string with words reversed
+def reverse(s):
+    a = s.split(" ")
+    a.reverse()
+    a = " ".join(a)
+    return a
