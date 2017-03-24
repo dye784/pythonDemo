@@ -17,3 +17,15 @@ def square_or_square_root(arr):
         else:
             result.append(num ** 2)
     return result
+
+# Basic math operations
+
+def basic_op(operator, value1, value2):
+    if operator == '+':
+        return value1 + value2
+    elif operator == '-':
+        return value1 - value2
+    elif operator == '*':
+        return value1 * value2
+    elif operator == '/':
+        return value1 / value2
