@@ -8,3 +8,12 @@ def find_needle(haystack):
         if haystack[i] == 'needle':
             return "found the needle at position %s" % (i)
 
+# square or square root num
+def square_or_square_root(arr):
+    result = []
+    for num in arr:
+        if num ** 0.5 % 1 == 0:
+            result.append(num ** 0.5)
+        else:
+            result.append(num ** 2)
+    return result
